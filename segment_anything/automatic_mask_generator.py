@@ -265,7 +265,7 @@ class SamAutomaticMaskGenerator:
                     select_point_coords,
                     select_point_labels,
                     select_box,
-                    select_mask_input
+                    [select_mask_input]
                 )
             data.cat(crop_data)
 
