@@ -2,6 +2,13 @@
 
 <h1>Matcher++: Enhancing Matcher in Few-show Learning </h1>
 
+## Comparisons
+### LVIS 5Shot
+| Model | mean miou | fold 0  | miou | fold 1 | miou | fold 2 | miou | fold 3 | miou | fold 4 | miou | fold 5 | miou | fold 6| miou | fold 7| miou | fold 8  miou | fold 9 | miou |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Matcher | 40.0 | 37 | 36.58 | 47.27 | 39.13 | 37.05 | 41.78 | 42.68 | 37.7 | 37.88 | 43.29 |
+| Matcher++ base | 42.5 | 39.75 | 37.61 | 47.29 | 43.92 | 40.93 | 43.76 | 43.71 | 41.05 | 42.42 | 44.32 |
+
 ## 🎫 License
 
 The content of this project itself is licensed under [LICENSE](LICENSE).
