@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>Matcher++ </h1>
+<h1>Matcher++: Enhancing Matcher in Few-show Learning </h1>
 
 ## 🎫 License
 
