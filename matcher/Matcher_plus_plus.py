@@ -159,7 +159,8 @@ class Matcher_plus_plus:
         
     def add_padded_tar_imgs(self):
         # add a padded img for self.tar_img
-        padded_tar_img = self.tar_img[0]
+        import copy
+        padded_tar_img = copy.deepcopy(self.tar_img[0])
         padded_tar_img[:, self.encoder.patch_size//2:, self.encoder.patch_size//2:] = padded_tar_img[:, :-self.encoder.patch_size//2, :-self.encoder.patch_size//2]
 
         self.tar_img = torch.cat([self.tar_img[0][None, ...], padded_tar_img[None, ...]], dim=0)

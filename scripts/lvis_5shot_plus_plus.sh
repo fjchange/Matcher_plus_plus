@@ -22,5 +22,6 @@ do
     --patch_wise_sim_thresh 0.0 \
     --mask_thresh 0.0 \
     --dinov2-weights ./models/dinov2_vitl14_reg4_pretrain.pth \
-    --add_padded_tar
+    --add_padded_tar \
+    # --use_dense_mask_prompt
 done
