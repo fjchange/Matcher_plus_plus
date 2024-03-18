@@ -28,6 +28,13 @@ If you find this project useful in your research, please consider cite:
   journal={arXiv preprint arXiv:2305.13310},
   year={2023}
 }
+
+misc{matcher++,
+  author = {Jia-Chang Feng},
+  title = {Matcher++: Enhancing Matcher in Few-show Learning},
+  year = {2024},
+  howpublished = {\url{httpss://github.com/fjchange/Matcher_plus_plus.git}}
+}
 ```
 
 ## Acknowledgement
