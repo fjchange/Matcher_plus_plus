@@ -265,7 +265,7 @@ class SamAutomaticMaskGenerator:
                     select_point_coords,
                     select_point_labels,
                     select_box,
-                    select_mask_input
+                    [select_mask_input]
                 )
             data.cat(crop_data)
 
@@ -327,7 +327,7 @@ class SamAutomaticMaskGenerator:
             else:
                 raise NotImplementedError
 
-            if select_masks_input == None:
+            if select_masks_input is None:
                 select_masks_input = [None] * points_list_len
             elif isinstance(select_masks_input, list) and len(select_masks_input) == 1:
                 select_masks_input = select_masks_input * points_list_len
